@@ -1,0 +1,29 @@
+public class DecisionStatement {
+    public static void main(String[] args) {
+         int inputNumber=50;
+         //var inputNumber2=10;
+        if(inputNumber >0 && inputNumber <=10){
+            System.out.println("Range One 10 equal");
+        }
+        else if(inputNumber >10 && inputNumber <=20){
+            System.out.println("Range two 20 include");
+        }
+         else if(inputNumber >20 && inputNumber <=30){
+             System.out.println("Range Three 30 include");
+         }
+        else{
+             System.out.println("Not in Range under 30");
+         }
+         
+         //TWO
+    int newNumber1=10;
+     int newNumber2=20;
+    if(newNumber1 <=10 && newNumber2 <=20){
+    System.out.println("ONE 20 include");
+        }
+        else if(newNumber1 <20 && newNumber2 <30){
+            System.out.println(" 30 include");}
+        
+    }
+    
+}
