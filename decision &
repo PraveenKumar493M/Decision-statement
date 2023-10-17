@@ -14,7 +14,6 @@ public class DecisionStatement {
         else{
              System.out.println("Not in Range under 30");
          }
-         
          //TWO
     int newNumber1=10;
      int newNumber2=20;
